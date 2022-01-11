@@ -1,0 +1,76 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container
+{
+    width: 1200px;
+    margin: 0 auto;
+}
+body
+{
+    background: #ddd;
+}
+
+.header{
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 45px;
+}
+#head{
+    font-size: 19px;
+    margin: 15px 150px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 17px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.nav i{
+    margin-right: 17px;
+}
+
+/* block qism */
+.block{
+    background: #fff;
+    border-radius: 17px;
+    padding: 10px 25px;
+    margin-top: 35px;
+}
+.block .block1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.block1 .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block1 .text .img img{
+    width: 175px;
+    height: 175px;
+}
+.block1 .text .textone{
+    margin-left: 17px;
+}
+.block1 .text .textone p{
+    margin-top: 3px;
+}
+.block1 .dot i{
+    font-size: 20px;
+}
+i{
+    cursor: pointer;
+}
+
+/* Lorem ipsum dolor sit amet consectetur adipisicing... */

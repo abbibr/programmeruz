@@ -1,0 +1,115 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container
+{
+    width: 1200px;
+    margin: 0 auto;
+}
+body
+{
+    background: #ddd;
+}
+
+/* home workout */
+h1{
+    color: rgba(255, 0, 0, 0.9);
+    text-align: center;
+    margin-top: 5px;
+}
+.blocks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #aaa;
+    border: 1px solid #aaa;
+    border-radius: 7px;
+    padding: 15px 75px;
+    width: 57%;
+    margin: 25px auto;
+
+}
+.blocks .block{
+    text-align: center;
+}
+
+/* swiper js */
+#challenge{
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: -25px;
+}
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 375px;
+    height: 235px;
+}
+.aaa { /* image */
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.gallery_item .text{
+    padding: 7px;
+    background-color: white;
+    border-radius: 7px;
+}
+.gallery_item .text p{
+    margin: 5px 0;
+} 
+.gallery_item .text .links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0.75;
+}
+.gallery_item .text .links a{
+    text-decoration: none;
+}
+
+/* card qism */
+#space
+{
+    min-height: 100px;
+}
+.blog{
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin: 50px auto;
+    border-radius: 15px;
+}
+.blog .img img{
+    width: 300px;
+    height: 200px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.blog .text{
+    padding: 0 100px;
+}
+.blog .text h2{
+    font-size: 32px;
+}
+.blog .text p{
+    font-size: 18px;
+    margin-top: 5px;
+}
+.blog .text h2 a{
+    text-decoration: none;
+    color: black;
+}
